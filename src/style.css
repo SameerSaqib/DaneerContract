@@ -1,0 +1,27 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: "Noto Naskh Arabic", serif;
+  overflow: hidden; /* Prevents vertical scrollbar on the body */
+}
+
+.scrolling-page {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll; /* Enable vertical scrolling */
+  height: 100vh; /* Set the height to the full viewport height */
+}
+@font-face {
+  font-family: "Noto Naskh Arabic";
+  src: url("../src/fonts/static/NotoNaskhArabic-VariableFont_wght.ttf")
+      format("truetype"),
+    url("../src/fonts/static/NotoNaskhArabic-SemiBold.ttf") format("truetype"),
+    url("../src/fonts/static/NotoNaskhArabic-Regular.ttf") format("truetype"),
+    url("../src/fonts/static/NotoNaskhArabic-Medium.ttf") format("truetype"),
+    url("../src/fonts/static/NotoNaskhArabic-Bold.ttf") format("truetype"),
+    url("C:\Users\safee\Daneer Contract\daneer-contract\src\fonts\KFGQPC Uthman Taha Naskh Regular\KFGQPC Uthman Taha Naskh Regular.ttf")
+      format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}

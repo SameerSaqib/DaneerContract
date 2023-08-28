@@ -1,0 +1,123 @@
+/* style.css */
+/* ... (existing styles) */
+
+.center-content {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+
+  /* Adjust the margin to center-align vertically */
+}
+
+.text-line {
+  margin-bottom: 10px;
+}
+/* Add space between lines of text */
+
+.section1 {
+  margin: 0 100px; /* Add margin on both sides */
+  position: relative;
+  margin-bottom: 20px;
+
+  font-family: "Noto Naskh Arabic", serif;
+}
+
+.center-end {
+  text-align: center;
+  margin-top: 50px; /* Adjust the margin as needed */
+  font-size: 13px; /* Adjust the font size as needed */
+  color: blueviolet;
+}
+.additional-text {
+  text-align: center; /* Center-align the text */
+  margin-top: 10cm; /* Add margin at the top */
+  font-size: 13px; /* Adjust the font size as needed */
+  color: blueviolet;
+}
+/* Section2.css */
+
+/* ... (existing styles) */
+
+/* Section2.css */
+
+/* ... (existing styles) */
+
+.additional-text1 {
+  font-size: 25px; /* Adjust the font size as needed */
+  font-weight: normal; /* Reset font weight */
+  direction: rtl; /* Set text direction to right-to-left */
+  text-align: right; /* Align the text to the right */
+  margin-right: 30px; /* Adjust the margin to move the text further to the right */
+}
+.highlight {
+  background-color: yellow;
+  padding: 2px 5px; /* Adjust padding as needed */
+  border-radius: 3px; /* Add border radius for rounded corners */
+}
+
+/* Rest of your existing styles... */
+
+/* Rest of your existing styles... */
+
+.additional-text p {
+  margin: 7px; /* Add margin between each paragraph */
+  font-weight: bold;
+}
+/* Section1.css */
+/* ... (existing styles) */
+
+.image-style {
+  max-width: 50%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 10px;
+  /* Add margin to position the image */
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+.contract-number {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  /* Other styling properties */
+}
+/* Section1.css */
+/* ... (existing styles) */
+
+.highlight {
+  background-color: yellow;
+  padding: 2px 5px; /* Adjust padding as needed */
+  border-radius: 3px; /* Add border radius for rounded corners */
+}
+/* Section2.css */
+
+/* ... (existing styles) */
+
+.center-align {
+  text-align: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+/* Rest of your existing styles... */
+/* Section2.css */
+
+/* ... (existing styles) */
+
+.centered-text {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: normal; /* Reset font weight */
+}
+.header {
+  font-size: 60px;
+  margin-top: 50px; /* Add margin to create space above the header */
+  font-weight: 700;
+  margin-top: 200px;
+}
+
+/* Rest of your existing styles... */

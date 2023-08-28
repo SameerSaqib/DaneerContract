@@ -1,0 +1,25 @@
+.section1 {
+  margin: 0 100px; /* Add margin on both sides */
+  position: relative;
+  margin-bottom: 100px;
+  font-weight: bold;
+  font-family: "Noto Naskh Arabic", serif;
+}
+.center-align {
+  text-align: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+.centered-text {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 25px;
+}
+.additional-text1 {
+  font-size: 25px; /* Adjust the font size as needed */
+  font-weight: normal; /* Reset font weight */
+  direction: rtl; /* Set text direction to right-to-left */
+  text-align: right; /* Align the text to the right */
+  margin-right: 30px; /* Adjust the margin to move the text further to the right */
+}

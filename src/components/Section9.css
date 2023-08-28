@@ -1,0 +1,87 @@
+.section1 {
+  margin: 0 100px; /* Add margin on both sides */
+  position: relative;
+  margin-bottom: 100px;
+  font-weight: bold;
+  font-family: "Noto Naskh Arabic", serif;
+}
+.center-align {
+  text-align: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+.centered-text {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 25px;
+}
+.additional-text1 {
+  font-size: 25px; /* Adjust the font size as needed */
+  font-weight: normal; /* Reset font weight */
+  direction: rtl; /* Set text direction to right-to-left */
+  text-align: right; /* Align the text to the right */
+  margin-right: 30px; /* Adjust the margin to move the text further to the right */
+}
+.additional-text-container {
+  counter-reset: paragraph-counter; /* Initialize the counter */
+}
+
+.additional-text13 {
+  font-size: 25px;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  margin-right: 100px;
+  position: relative; /* Add relative positioning */
+}
+
+.additional-text13::before {
+  content: counter(paragraph-counter); /* Use the counter value */
+  counter-increment: paragraph-counter; /* Increment the counter */
+  position: absolute;
+  top: 0;
+  right: -30px; /* Adjust the position of the number */
+  font-size: 25px; /* Adjust the size of the number */
+  color: rgb(0, 0, 0);
+}
+.additional-text-container1 {
+  counter-reset: paragraph-counter; /* Initialize the counter */
+}
+.additional-text14 {
+  font-size: 25px;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  margin-right: 100px;
+  position: relative; /* Add relative positioning */
+}
+.additional-text14::before {
+  content: counter(paragraph-counter); /* Use the counter value */
+  counter-increment: paragraph-counter; /* Increment the counter */
+  position: absolute;
+  top: 0;
+  right: -30px; /* Adjust the position of the number */
+  font-size: 25px; /* Adjust the size of the number */
+  color: rgb(0, 0, 0);
+}
+.additional-text15 {
+  font-size: 25px;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  margin-right: 150px;
+  position: relative; /* Add relative positioning */
+}
+.additional-text15::before {
+  content: counter(
+    paragraph-counter,
+    lower-alpha
+  ); /* Use the counter value with lower-alpha format */
+  counter-increment: paragraph-counter; /* Increment the counter */
+  position: absolute;
+  top: 0;
+  right: -30px; /* Adjust the position of the number */
+  font-size: 25px; /* Adjust the size of the number */
+  color: rgb(0, 0, 0);
+}

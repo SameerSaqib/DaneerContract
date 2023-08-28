@@ -1,0 +1,98 @@
+/* style.css */
+/* ... (existing styles) */
+
+.center-content {
+  text-align: center;
+
+  /* Adjust the margin to center-align vertically */
+}
+
+.header {
+  /* you have to copy and paste this is Section2.css then it will work i dont know why */
+  /* you have to copy and paste this is Section2.css then it will work i dont know why */
+  /* you have to copy and paste this is Section2.css then it will work i dont know why */
+  /* you have to copy and paste this is Section2.css then it will work i dont know why */
+  /* you have to copy and paste this is Section2.css then it will work i dont know why */
+  font-size: 60px;
+  margin-top: 50px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.text-line {
+  margin-bottom: 10px;
+  /* Add space between lines of text */
+}
+
+.section1 {
+  position: relative;
+  margin-bottom: 40px;
+  margin: 0 100px; /* Add margin on both sides */
+  margin-top: 50px;
+  font-weight: 500;
+}
+
+.p2 {
+  font-size: x-large;
+  margin-top: 20px;
+  font-weight: normal; /* Reset font weight */
+}
+.p3 {
+  font-size: x-large;
+  margin-top: 200px;
+  font-weight: normal; /* Reset font weight */
+}
+/* Section1.css */
+/* ... (existing styles) */
+
+.center-end {
+  text-align: center;
+  margin-top: 50px; /* Adjust the margin as needed */
+  font-size: 13px; /* Adjust the font size as needed */
+  color: blueviolet;
+}
+.additional-text {
+  text-align: center; /* Center-align the text */
+  margin: 5mm 0; /* 50px top and bottom margins, 0 left and right margins */
+  font-size: 13px; /* Adjust the font size as needed */
+  color: blueviolet;
+
+  /* Add the following styles to center-align the content vertically and horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.additional-text p {
+  margin: 7px; /* Add margin between each paragraph */
+  font-weight: bold;
+}
+/* Section1.css */
+/* ... (existing styles) */
+
+.image-style {
+  max-width: 50%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 30px;
+  /* Add margin to position the image */
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+.contract-number {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  /* Other styling properties */
+}
+/* Section1.css */
+/* ... (existing styles) */
+
+.highlight {
+  background-color: yellow;
+  padding: 2px 5px; /* Adjust padding as needed */
+  border-radius: 3px; /* Add border radius for rounded corners */
+}

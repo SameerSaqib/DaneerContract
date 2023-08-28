@@ -1,0 +1,67 @@
+.additional-text {
+  text-align: center; /* Center-align the text */
+  margin: 5mm 0; /* 50px top and bottom margins, 0 left and right margins */
+  font-size: 13px; /* Adjust the font size as needed */
+  color: blueviolet;
+  margin-top: 5cm; /* Add margin at the top */
+
+  /* Add the following styles to center-align the content vertically and horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.additional-text p {
+  font-weight: bold;
+}
+.section1 {
+  margin: 0 100px; /* Add margin on both sides */
+  position: relative;
+  margin-bottom: 100px;
+  font-weight: bold;
+  font-family: "Noto Naskh Arabic", serif;
+}
+.image-style {
+  max-width: 50%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 10px;
+  /* Add margin to position the image */
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+.center-align {
+  text-align: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+.centered-text {
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 25px;
+}
+.additional-text1 {
+  font-size: 25px; /* Adjust the font size as needed */
+  font-weight: normal; /* Reset font weight */
+  direction: rtl; /* Set text direction to right-to-left */
+  text-align: right; /* Align the text to the right */
+  margin-right: 30px; /* Adjust the margin to move the text further to the right */
+}
+.additional-text11 {
+  font-size: 25px;
+  font-weight: normal;
+  direction: rtl;
+  text-align: right;
+  margin-right: 100px;
+  position: relative; /* Add relative positioning */
+}
+
+.additional-text11::before {
+  content: "●"; /* Unicode bullet character */
+  position: absolute;
+  top: 0;
+  right: -30px; /* Adjust the position of the bullet */
+  font-size: 25px; /* Adjust the size of the bullet */
+  color: rgb(0, 0, 0);
+}
